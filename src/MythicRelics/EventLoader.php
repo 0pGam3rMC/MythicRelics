@@ -18,7 +18,7 @@ class EventLoader extends PluginBase {
     public function onEnable()
   {
     self::$instance = $this;
-    $this->getLogger()->info("has been enabled!");
+    $this->getLogger()->info("SlaysRelics Have been enabled");
     $this->setRelics();
   }
 
